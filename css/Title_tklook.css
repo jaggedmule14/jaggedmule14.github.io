@@ -1,7 +1,6 @@
-#typing-text1 {
-  cursor: pointer;
-  width: 250px;
-  height: 45px;
+#typing-text {
+  width: 800px;
+  height: 80px;
   font-size: 28px;
 	text-shadow: #A3A3A3 0px 2px 4px;
   top: 50%;
