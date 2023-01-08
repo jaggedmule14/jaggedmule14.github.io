@@ -89,13 +89,31 @@ tr:hover{
   background-color:#a5a5a5;
 }
 </style>
+<style>
+  .searchbar {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  .boton {
+    margin-left: 0px;
+  }
+  
+  .barra {
+    width: 910px;
+  }
+</style>
 
 
         <section id="contenido">
             
             <article>
-              <br>
-              <table>
+              <div class="searchbar">
+              <button onclick="buscar()" class="boton">Buscar</button>
+              <input type="text" id="Search" class="barra">
+              </div>
+
+              <table id=Table>
                 <tr>
                   <th>Machine</th>
                   <th>Difficulty</th>
@@ -135,7 +153,7 @@ tr:hover{
         </footer>
 
 
-
+        <script type="text/javascript" src="js/search.js"></script>
     </div>
 </body>
 
